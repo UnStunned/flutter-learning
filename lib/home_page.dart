@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     String title = 'Catalogue';
     return Scaffold(
-      body: const Center(child: Text("Hey man")),
+      body: const Center(child: Text("Welcome to my catalogue")),
       appBar: AppBar(title: Center(child: Text("$title"))),
     );
   }
