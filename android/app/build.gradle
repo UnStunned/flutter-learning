@@ -26,6 +26,10 @@ apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
+    defaultConfig {                                                                            
+        minSdkVersion 19                                                 
+    }
+
     namespace "com.example.flutter_catalog"
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion

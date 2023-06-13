@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget {
     String title = 'Catalogue';
     return Scaffold(
       body: const Center(child: Text("Welcome to my catalogue")),
-      appBar: AppBar(title: Center(child: Text("$title"))),
+      appBar: AppBar(title: Text("$title")),
     );
   }
 }
